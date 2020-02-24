@@ -22,7 +22,7 @@ dfs () {
           new_file_name=$k$name
           ((k++))
         done
-        # cp $name $backup_dir/$new_file_name
+        cp $name $backup_dir/$new_file_name
       fi
     fi
   done
@@ -30,5 +30,5 @@ dfs () {
 dfs
 cd $backup_dir
 cd ..
-tar -cvf $4 $3 2> /dev/null
+tar -zcf $4 $3 2> /dev/null
 echo "done"
