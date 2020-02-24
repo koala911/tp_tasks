@@ -1,8 +1,8 @@
 dir_to_backup=$1
 mkdir $3
-cpp=$2
 backup_dir=$(pwd)/$3
 cd $dir_to_backup
+ext=$2
 dfs () {
   names=$(ls)
   for name in $names
@@ -13,7 +13,7 @@ dfs () {
       dfs
       cd ..
     else
-      if [ ${name##*.} == $cpp ] && [ -f ./$name ]
+      if [[ $name == *.$ext ]] && [ -f ./$name ]
       then
         new_file_name=$name
         k=1  
@@ -22,7 +22,7 @@ dfs () {
           new_file_name=$k$name
           ((k++))
         done
-        cp $name $backup_dir/$new_file_name
+        # cp $name $backup_dir/$new_file_name
       fi
     fi
   done
