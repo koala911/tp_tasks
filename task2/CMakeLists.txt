@@ -27,6 +27,6 @@ add_subdirectory(B)
 
 target_link_libraries(main lib)
 
-add_executable(CTest C/main_test.cpp C/Test.cpp)
+add_executable(CTest C/main_test.cpp C/Test.cpp A/index.h B/lib.h B/lib.cpp)
 
 target_link_libraries(CTest ${GTEST_LIBRARIES} Threads::Threads)
