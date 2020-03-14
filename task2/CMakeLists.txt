@@ -19,13 +19,7 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 #add_custom_target(py_script ALL DEPENDS ${CMAKE_SOURCE_DIR}/A/index.h)
 
-add_custom_target(
- generating_index ALL
- BYPRODUCTS A/index.h
- COMMAND python3 ${CMAKE_SOURCE_DIR}/A/preparing.py
-)
-
-add_dependencies(ALL generating_index)
+execute_process(COMMAND python3 preparing.py WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/A) 
 
 add_executable(main C/main.cpp)
 
