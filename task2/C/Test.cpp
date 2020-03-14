@@ -2,7 +2,7 @@
 #include "A/index.h"
 #include "B/lib.h"
 
-TEST(LibTest) {
+TEST(LibTest, Test1) {
     EXPECT_EQ(25, sqr(5));
     EXPECT_EQ(4, sqr(2));
     EXPECT_EQ(100, sqr(10));
@@ -11,6 +11,6 @@ TEST(LibTest) {
     EXPECT_EQ(100, sqr(-10));
 }
 
-TEST(IndexTest) {
+TEST(IndexTest, Test2) {
     EXPECT_EQ(1, x);
 }
