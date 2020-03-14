@@ -20,9 +20,11 @@ add_custom_command(
 add_custom_target(py_script ALL DEPENDS ${CMAKE_SOURCE_DIR}/A/index.h)
 
 add_executable(main C/main.cpp)
-add_executable(CTest C/main_test.cpp)
 
 add_subdirectory(B)
 
 target_link_libraries(main lib)
+
+add_executable(CTest C/main_test.cpp C/Test.cpp)
+
 target_link_libraries(CTest ${GTEST_LIBRARIES} Threads::Threads)
