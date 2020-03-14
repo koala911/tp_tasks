@@ -1,5 +1,5 @@
 #include "lib.h"
 
-int sqr(int a) {
+int my_sqr(int a) {
     return a * a;
 }
