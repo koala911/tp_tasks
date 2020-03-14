@@ -12,12 +12,20 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 include_directories(${CMAKE_SOURCE_DIR})
 include_directories(${GTEST_INCLUDE_DIRS})
 
-add_custom_command(
-    OUTPUT ${CMAKE_SOURCE_DIR}/A/index.h
-    COMMAND python3 ${CMAKE_SOURCE_DIR}/A/preparing.py
+#add_custom_command(
+ #   OUTPUT ${CMAKE_SOURCE_DIR}/A/index.h
+  #  COMMAND python3 ${CMAKE_SOURCE_DIR}/A/preparing.py
+#)
+
+#add_custom_target(py_script ALL DEPENDS ${CMAKE_SOURCE_DIR}/A/index.h)
+
+add_custom_target(
+ generating_index ALL
+ BYPRODUCTS A/index.h
+ COMMAND python3 ${CMAKE_SOURCE_DIR}/A/preparing.py
 )
 
-add_custom_target(py_script ALL DEPENDS ${CMAKE_SOURCE_DIR}/A/index.h)
+add_dependencies(ALL generating_index)
 
 add_executable(main C/main.cpp)
 
