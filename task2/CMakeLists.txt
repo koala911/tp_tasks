@@ -20,7 +20,7 @@ add_custom_command(
 add_custom_target(py_script ALL DEPENDS ${CMAKE_SOURCE_DIR}/A/index.h)
 
 add_executable(main C/main.cpp)
-add_executable(CTest C/main_test.cpp C/Test.cpp)
+add_executable(CTest C/main_test.cpp)
 
 add_subdirectory(B)
 
