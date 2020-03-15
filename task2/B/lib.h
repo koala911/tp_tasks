@@ -1,0 +1,1 @@
+int my_sqr(int a);
