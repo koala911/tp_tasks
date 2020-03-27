@@ -15,6 +15,6 @@ add_executable(MainLib main_lib.cpp)
 
 target_link_libraries(MainLib buffer)
 
-install(TARGETS Main)
-install(TARGETS MainLib)
-install(TARGETS buffer)
+install(TARGETS Main DESTINATION CMAKE_RUNTIME_OUTPUT_DIRECTORY)
+install(TARGETS MainLib DESTINATION CMAKE_RUNTIME_OUTPUT_DIRECTORY)
+install(TARGETS buffer DESTINATION CMAKE_RUNTIME_OUTPUT_DIRECTORY)
