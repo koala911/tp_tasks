@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TpPatterns"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TpPatterns">
+				<Option output="/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/TpPatterns" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 TpPatterns"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TpPatterns/fast">
+				<Option output="/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/TpPatterns" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 TpPatterns/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllFractions/AttackingFraction.cpp">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllFractions/AttackingFraction.h">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllFractions/DefendingFraction.cpp">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllFractions/DefendingFraction.h">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllFractions/EconomyFraction.cpp">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllFractions/EconomyFraction.h">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllFractions/IncludeAll.h">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/Archer.cpp">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/Archer.h">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/Civilian.cpp">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/Civilian.h">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/HorseRider.cpp">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/HorseRider.h">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/IncludeAll.h">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/Swordsman.cpp">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/Swordsman.h">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Army.cpp">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Army.h">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Event.cpp">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Event.h">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Finance.cpp">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Finance.h">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/FractionFactory.cpp">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/FractionFactory.h">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Squad.cpp">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Squad.h">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Unit.cpp">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Unit.h">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/main.cpp">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

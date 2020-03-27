@@ -1,0 +1,3 @@
+/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles/TpPatterns.dir
