@@ -23,5 +23,6 @@ install(
         RUNTIME DESTINATION bin
         LIBRARY DESTINATION bin
         ARCHIVE DESTINATION bin
+        INCLUDES DESTINATION include
     )
 #install(TARGETS MainLib DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)

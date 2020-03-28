@@ -5,4 +5,5 @@ install(
         LIBRARY DESTINATION bin
         ARCHIVE DESTINATION bin
         PUBLIC_HEADER DESTINATION bin
+        INCLUDES DESTINATION include
         )
