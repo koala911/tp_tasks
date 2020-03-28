@@ -22,6 +22,6 @@ install(
         TARGETS Main MainLib 
         RUNTIME DESTINATION bin
         LIBRARY DESTINATION bin
-        ARCHIVE DESTINATION lib
+        ARCHIVE DESTINATION bin
     )
 #install(TARGETS MainLib DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
