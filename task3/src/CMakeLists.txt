@@ -4,5 +4,5 @@ install(
         RUNTIME DESTINATION bin
         LIBRARY DESTINATION lib
         ARCHIVE DESTINATION lib
-        PUBLIC_HEADER DESTINATION дши
+        PUBLIC_HEADER DESTINATION bin
         )
