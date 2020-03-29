@@ -12,6 +12,10 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${SimpleLibrary_SOURCE_DIR}/bin)
 add_subdirectory(src)
 set_target_properties(buffer PROPERTIES PUBLIC_HEADER include/buffer.h)
 
+
+set(CMAKE_INSTALL_RPATH "$ORIGIN/../bin")
+set(CMAKE_BUILD_WITH_INSTALL_RPATH ON)
+
 add_executable(Main main.cpp)
 add_executable(MainLib main_lib.cpp)
 #add_executable(buffer_header include/buffer.h)
