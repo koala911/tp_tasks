@@ -7,3 +7,4 @@ install(
         PUBLIC_HEADER DESTINATION bin
         INCLUDES DESTINATION bin
         )
+find_path(LIB_INCLUDE_PATH ../include/buffer.h)
