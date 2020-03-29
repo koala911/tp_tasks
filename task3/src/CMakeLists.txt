@@ -1,4 +1,5 @@
 add_library(buffer SHARED buffer.cpp)
+find_path(LIB_INCLUDE_PATH ../include/buffer.h)
 install(    
         TARGETS buffer 
         RUNTIME DESTINATION bin
