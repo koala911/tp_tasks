@@ -1,2 +1,4 @@
 add_library(buffer SHARED buffer.cpp)
-install(TARGETS buffer DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
+if (ARM_BUILD)
+    install(TARGETS buffer DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
+endif()
