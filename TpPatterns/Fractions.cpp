@@ -1,0 +1,97 @@
+#include "Fractions.h"
+
+Fraction::Fraction(): army(new Army), finance(new Finance), unit_id_counter(0) {}
+
+Fraction::~Fraction() {
+    delete army;
+    delete finance;
+}
+
+void Fraction::AddNewSquad(Squad* const& new_squad) {
+    army->AddSquad(new_squad);
+}
+
+void Fraction::AddNewUnit(Unit *const& new_unit, size_t squad_number) {
+    army->AddUnit(new_unit, squad_number);
+}
+
+void Fraction::AddBonusUnit(size_t squad_number) {
+    Unit* new_unit = CreateBonusUnit();
+    AddNewUnit(new_unit, squad_number);
+}
+
+size_t Fraction::GetArmySize() const {
+    return army->GetSize();
+}
+
+//----------------------------------------------------------------------------------------------------------------------
+
+Unit* AttackingFraction::CreateBonusUnit() {
+    Unit* new_unit = new Archer(unit_id_counter);
+    ++unit_id_counter;
+    return  new_unit;
+}
+
+void AttackingFraction::Attack(Fraction &other_fraction, size_t squad_number) const {
+    double total_damage = army->GetSquad(squad_number).GetTotalDamage();
+    size_t other_army_size = other_fraction.GetArmySize();
+    double damage = total_damage / other_army_size;
+    other_fraction.Defend(damage * 1.1);
+}
+
+void AttackingFraction::Defend(double damage) {
+    army->ToHit(damage * 1.1);
+}
+
+void AttackingFraction::Earn(size_t squad_number) {
+    double total_earnings = army->GetSquad(squad_number).GetTotalEarnings();
+    finance->AddMoney(total_earnings);
+}
+
+//----------------------------------------------------------------------------------------------------------------------
+
+Unit* DefendingFraction::CreateBonusUnit() {
+    Unit* new_unit = new Swordsman(unit_id_counter);
+    ++unit_id_counter;
+    return  new_unit;
+}
+
+void DefendingFraction::Attack(Fraction &other_fraction, size_t squad_number) const {
+    double total_damage = army->GetSquad(squad_number).GetTotalDamage();
+    size_t other_army_size = other_fraction.GetArmySize();
+    double damage = total_damage / other_army_size;
+    other_fraction.Defend(damage * 0.9);
+}
+
+void DefendingFraction::Defend(double damage) {
+    army->ToHit(damage * 0.9);
+}
+
+void DefendingFraction::Earn(size_t squad_number) {
+    double total_earnings = army->GetSquad(squad_number).GetTotalEarnings();
+    finance->AddMoney(total_earnings);
+}
+
+//----------------------------------------------------------------------------------------------------------------------
+
+Unit* EconomyFraction::CreateBonusUnit() {
+    Unit* new_unit = new Swordsman(unit_id_counter);
+    ++unit_id_counter;
+    return  new_unit;
+}
+
+void EconomyFraction::Attack(Fraction &other_fraction, size_t squad_number) const {
+    double total_damage = army->GetSquad(squad_number).GetTotalDamage();
+    size_t other_army_size = other_fraction.GetArmySize();
+    double damage = total_damage / other_army_size;
+    other_fraction.Defend(damage);
+}
+
+void EconomyFraction::Defend(double damage) {
+    army->ToHit(damage);
+}
+
+void EconomyFraction::Earn(size_t squad_number) {
+    double total_earnings = army->GetSquad(squad_number).GetTotalEarnings();
+    finance->AddMoney(total_earnings * 1.1);
+}

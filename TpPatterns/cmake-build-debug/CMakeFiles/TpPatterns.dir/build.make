@@ -70,74 +70,22 @@ CMakeFiles/TpPatterns.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TpPatterns.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kostya/tp_tasks/TpPatterns/main.cpp -o CMakeFiles/TpPatterns.dir/main.cpp.s
 
-CMakeFiles/TpPatterns.dir/Unit.cpp.o: CMakeFiles/TpPatterns.dir/flags.make
-CMakeFiles/TpPatterns.dir/Unit.cpp.o: ../Unit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TpPatterns.dir/Unit.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TpPatterns.dir/Unit.cpp.o -c /Users/kostya/tp_tasks/TpPatterns/Unit.cpp
+CMakeFiles/TpPatterns.dir/Units.cpp.o: CMakeFiles/TpPatterns.dir/flags.make
+CMakeFiles/TpPatterns.dir/Units.cpp.o: ../Units.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TpPatterns.dir/Units.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TpPatterns.dir/Units.cpp.o -c /Users/kostya/tp_tasks/TpPatterns/Units.cpp
 
-CMakeFiles/TpPatterns.dir/Unit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TpPatterns.dir/Unit.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kostya/tp_tasks/TpPatterns/Unit.cpp > CMakeFiles/TpPatterns.dir/Unit.cpp.i
+CMakeFiles/TpPatterns.dir/Units.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TpPatterns.dir/Units.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kostya/tp_tasks/TpPatterns/Units.cpp > CMakeFiles/TpPatterns.dir/Units.cpp.i
 
-CMakeFiles/TpPatterns.dir/Unit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TpPatterns.dir/Unit.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kostya/tp_tasks/TpPatterns/Unit.cpp -o CMakeFiles/TpPatterns.dir/Unit.cpp.s
-
-CMakeFiles/TpPatterns.dir/AllUnits/Civilian.cpp.o: CMakeFiles/TpPatterns.dir/flags.make
-CMakeFiles/TpPatterns.dir/AllUnits/Civilian.cpp.o: ../AllUnits/Civilian.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TpPatterns.dir/AllUnits/Civilian.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TpPatterns.dir/AllUnits/Civilian.cpp.o -c /Users/kostya/tp_tasks/TpPatterns/AllUnits/Civilian.cpp
-
-CMakeFiles/TpPatterns.dir/AllUnits/Civilian.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TpPatterns.dir/AllUnits/Civilian.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kostya/tp_tasks/TpPatterns/AllUnits/Civilian.cpp > CMakeFiles/TpPatterns.dir/AllUnits/Civilian.cpp.i
-
-CMakeFiles/TpPatterns.dir/AllUnits/Civilian.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TpPatterns.dir/AllUnits/Civilian.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kostya/tp_tasks/TpPatterns/AllUnits/Civilian.cpp -o CMakeFiles/TpPatterns.dir/AllUnits/Civilian.cpp.s
-
-CMakeFiles/TpPatterns.dir/AllUnits/Swordsman.cpp.o: CMakeFiles/TpPatterns.dir/flags.make
-CMakeFiles/TpPatterns.dir/AllUnits/Swordsman.cpp.o: ../AllUnits/Swordsman.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TpPatterns.dir/AllUnits/Swordsman.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TpPatterns.dir/AllUnits/Swordsman.cpp.o -c /Users/kostya/tp_tasks/TpPatterns/AllUnits/Swordsman.cpp
-
-CMakeFiles/TpPatterns.dir/AllUnits/Swordsman.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TpPatterns.dir/AllUnits/Swordsman.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kostya/tp_tasks/TpPatterns/AllUnits/Swordsman.cpp > CMakeFiles/TpPatterns.dir/AllUnits/Swordsman.cpp.i
-
-CMakeFiles/TpPatterns.dir/AllUnits/Swordsman.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TpPatterns.dir/AllUnits/Swordsman.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kostya/tp_tasks/TpPatterns/AllUnits/Swordsman.cpp -o CMakeFiles/TpPatterns.dir/AllUnits/Swordsman.cpp.s
-
-CMakeFiles/TpPatterns.dir/AllUnits/Archer.cpp.o: CMakeFiles/TpPatterns.dir/flags.make
-CMakeFiles/TpPatterns.dir/AllUnits/Archer.cpp.o: ../AllUnits/Archer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TpPatterns.dir/AllUnits/Archer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TpPatterns.dir/AllUnits/Archer.cpp.o -c /Users/kostya/tp_tasks/TpPatterns/AllUnits/Archer.cpp
-
-CMakeFiles/TpPatterns.dir/AllUnits/Archer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TpPatterns.dir/AllUnits/Archer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kostya/tp_tasks/TpPatterns/AllUnits/Archer.cpp > CMakeFiles/TpPatterns.dir/AllUnits/Archer.cpp.i
-
-CMakeFiles/TpPatterns.dir/AllUnits/Archer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TpPatterns.dir/AllUnits/Archer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kostya/tp_tasks/TpPatterns/AllUnits/Archer.cpp -o CMakeFiles/TpPatterns.dir/AllUnits/Archer.cpp.s
-
-CMakeFiles/TpPatterns.dir/AllUnits/HorseRider.cpp.o: CMakeFiles/TpPatterns.dir/flags.make
-CMakeFiles/TpPatterns.dir/AllUnits/HorseRider.cpp.o: ../AllUnits/HorseRider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TpPatterns.dir/AllUnits/HorseRider.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TpPatterns.dir/AllUnits/HorseRider.cpp.o -c /Users/kostya/tp_tasks/TpPatterns/AllUnits/HorseRider.cpp
-
-CMakeFiles/TpPatterns.dir/AllUnits/HorseRider.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TpPatterns.dir/AllUnits/HorseRider.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kostya/tp_tasks/TpPatterns/AllUnits/HorseRider.cpp > CMakeFiles/TpPatterns.dir/AllUnits/HorseRider.cpp.i
-
-CMakeFiles/TpPatterns.dir/AllUnits/HorseRider.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TpPatterns.dir/AllUnits/HorseRider.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kostya/tp_tasks/TpPatterns/AllUnits/HorseRider.cpp -o CMakeFiles/TpPatterns.dir/AllUnits/HorseRider.cpp.s
+CMakeFiles/TpPatterns.dir/Units.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TpPatterns.dir/Units.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kostya/tp_tasks/TpPatterns/Units.cpp -o CMakeFiles/TpPatterns.dir/Units.cpp.s
 
 CMakeFiles/TpPatterns.dir/Squad.cpp.o: CMakeFiles/TpPatterns.dir/flags.make
 CMakeFiles/TpPatterns.dir/Squad.cpp.o: ../Squad.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TpPatterns.dir/Squad.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TpPatterns.dir/Squad.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TpPatterns.dir/Squad.cpp.o -c /Users/kostya/tp_tasks/TpPatterns/Squad.cpp
 
 CMakeFiles/TpPatterns.dir/Squad.cpp.i: cmake_force
@@ -150,7 +98,7 @@ CMakeFiles/TpPatterns.dir/Squad.cpp.s: cmake_force
 
 CMakeFiles/TpPatterns.dir/Army.cpp.o: CMakeFiles/TpPatterns.dir/flags.make
 CMakeFiles/TpPatterns.dir/Army.cpp.o: ../Army.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TpPatterns.dir/Army.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TpPatterns.dir/Army.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TpPatterns.dir/Army.cpp.o -c /Users/kostya/tp_tasks/TpPatterns/Army.cpp
 
 CMakeFiles/TpPatterns.dir/Army.cpp.i: cmake_force
@@ -161,22 +109,22 @@ CMakeFiles/TpPatterns.dir/Army.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TpPatterns.dir/Army.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kostya/tp_tasks/TpPatterns/Army.cpp -o CMakeFiles/TpPatterns.dir/Army.cpp.s
 
-CMakeFiles/TpPatterns.dir/FractionFactory.cpp.o: CMakeFiles/TpPatterns.dir/flags.make
-CMakeFiles/TpPatterns.dir/FractionFactory.cpp.o: ../FractionFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TpPatterns.dir/FractionFactory.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TpPatterns.dir/FractionFactory.cpp.o -c /Users/kostya/tp_tasks/TpPatterns/FractionFactory.cpp
+CMakeFiles/TpPatterns.dir/Fractions.cpp.o: CMakeFiles/TpPatterns.dir/flags.make
+CMakeFiles/TpPatterns.dir/Fractions.cpp.o: ../Fractions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TpPatterns.dir/Fractions.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TpPatterns.dir/Fractions.cpp.o -c /Users/kostya/tp_tasks/TpPatterns/Fractions.cpp
 
-CMakeFiles/TpPatterns.dir/FractionFactory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TpPatterns.dir/FractionFactory.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kostya/tp_tasks/TpPatterns/FractionFactory.cpp > CMakeFiles/TpPatterns.dir/FractionFactory.cpp.i
+CMakeFiles/TpPatterns.dir/Fractions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TpPatterns.dir/Fractions.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kostya/tp_tasks/TpPatterns/Fractions.cpp > CMakeFiles/TpPatterns.dir/Fractions.cpp.i
 
-CMakeFiles/TpPatterns.dir/FractionFactory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TpPatterns.dir/FractionFactory.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kostya/tp_tasks/TpPatterns/FractionFactory.cpp -o CMakeFiles/TpPatterns.dir/FractionFactory.cpp.s
+CMakeFiles/TpPatterns.dir/Fractions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TpPatterns.dir/Fractions.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kostya/tp_tasks/TpPatterns/Fractions.cpp -o CMakeFiles/TpPatterns.dir/Fractions.cpp.s
 
 CMakeFiles/TpPatterns.dir/Finance.cpp.o: CMakeFiles/TpPatterns.dir/flags.make
 CMakeFiles/TpPatterns.dir/Finance.cpp.o: ../Finance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TpPatterns.dir/Finance.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TpPatterns.dir/Finance.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TpPatterns.dir/Finance.cpp.o -c /Users/kostya/tp_tasks/TpPatterns/Finance.cpp
 
 CMakeFiles/TpPatterns.dir/Finance.cpp.i: cmake_force
@@ -187,95 +135,42 @@ CMakeFiles/TpPatterns.dir/Finance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TpPatterns.dir/Finance.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kostya/tp_tasks/TpPatterns/Finance.cpp -o CMakeFiles/TpPatterns.dir/Finance.cpp.s
 
-CMakeFiles/TpPatterns.dir/AllFractions/AttackingFraction.cpp.o: CMakeFiles/TpPatterns.dir/flags.make
-CMakeFiles/TpPatterns.dir/AllFractions/AttackingFraction.cpp.o: ../AllFractions/AttackingFraction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/TpPatterns.dir/AllFractions/AttackingFraction.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TpPatterns.dir/AllFractions/AttackingFraction.cpp.o -c /Users/kostya/tp_tasks/TpPatterns/AllFractions/AttackingFraction.cpp
+CMakeFiles/TpPatterns.dir/Player.cpp.o: CMakeFiles/TpPatterns.dir/flags.make
+CMakeFiles/TpPatterns.dir/Player.cpp.o: ../Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TpPatterns.dir/Player.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TpPatterns.dir/Player.cpp.o -c /Users/kostya/tp_tasks/TpPatterns/Player.cpp
 
-CMakeFiles/TpPatterns.dir/AllFractions/AttackingFraction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TpPatterns.dir/AllFractions/AttackingFraction.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kostya/tp_tasks/TpPatterns/AllFractions/AttackingFraction.cpp > CMakeFiles/TpPatterns.dir/AllFractions/AttackingFraction.cpp.i
+CMakeFiles/TpPatterns.dir/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TpPatterns.dir/Player.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kostya/tp_tasks/TpPatterns/Player.cpp > CMakeFiles/TpPatterns.dir/Player.cpp.i
 
-CMakeFiles/TpPatterns.dir/AllFractions/AttackingFraction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TpPatterns.dir/AllFractions/AttackingFraction.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kostya/tp_tasks/TpPatterns/AllFractions/AttackingFraction.cpp -o CMakeFiles/TpPatterns.dir/AllFractions/AttackingFraction.cpp.s
-
-CMakeFiles/TpPatterns.dir/AllFractions/DefendingFraction.cpp.o: CMakeFiles/TpPatterns.dir/flags.make
-CMakeFiles/TpPatterns.dir/AllFractions/DefendingFraction.cpp.o: ../AllFractions/DefendingFraction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/TpPatterns.dir/AllFractions/DefendingFraction.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TpPatterns.dir/AllFractions/DefendingFraction.cpp.o -c /Users/kostya/tp_tasks/TpPatterns/AllFractions/DefendingFraction.cpp
-
-CMakeFiles/TpPatterns.dir/AllFractions/DefendingFraction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TpPatterns.dir/AllFractions/DefendingFraction.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kostya/tp_tasks/TpPatterns/AllFractions/DefendingFraction.cpp > CMakeFiles/TpPatterns.dir/AllFractions/DefendingFraction.cpp.i
-
-CMakeFiles/TpPatterns.dir/AllFractions/DefendingFraction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TpPatterns.dir/AllFractions/DefendingFraction.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kostya/tp_tasks/TpPatterns/AllFractions/DefendingFraction.cpp -o CMakeFiles/TpPatterns.dir/AllFractions/DefendingFraction.cpp.s
-
-CMakeFiles/TpPatterns.dir/AllFractions/EconomyFraction.cpp.o: CMakeFiles/TpPatterns.dir/flags.make
-CMakeFiles/TpPatterns.dir/AllFractions/EconomyFraction.cpp.o: ../AllFractions/EconomyFraction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/TpPatterns.dir/AllFractions/EconomyFraction.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TpPatterns.dir/AllFractions/EconomyFraction.cpp.o -c /Users/kostya/tp_tasks/TpPatterns/AllFractions/EconomyFraction.cpp
-
-CMakeFiles/TpPatterns.dir/AllFractions/EconomyFraction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TpPatterns.dir/AllFractions/EconomyFraction.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kostya/tp_tasks/TpPatterns/AllFractions/EconomyFraction.cpp > CMakeFiles/TpPatterns.dir/AllFractions/EconomyFraction.cpp.i
-
-CMakeFiles/TpPatterns.dir/AllFractions/EconomyFraction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TpPatterns.dir/AllFractions/EconomyFraction.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kostya/tp_tasks/TpPatterns/AllFractions/EconomyFraction.cpp -o CMakeFiles/TpPatterns.dir/AllFractions/EconomyFraction.cpp.s
-
-CMakeFiles/TpPatterns.dir/Event.cpp.o: CMakeFiles/TpPatterns.dir/flags.make
-CMakeFiles/TpPatterns.dir/Event.cpp.o: ../Event.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/TpPatterns.dir/Event.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TpPatterns.dir/Event.cpp.o -c /Users/kostya/tp_tasks/TpPatterns/Event.cpp
-
-CMakeFiles/TpPatterns.dir/Event.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TpPatterns.dir/Event.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kostya/tp_tasks/TpPatterns/Event.cpp > CMakeFiles/TpPatterns.dir/Event.cpp.i
-
-CMakeFiles/TpPatterns.dir/Event.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TpPatterns.dir/Event.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kostya/tp_tasks/TpPatterns/Event.cpp -o CMakeFiles/TpPatterns.dir/Event.cpp.s
+CMakeFiles/TpPatterns.dir/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TpPatterns.dir/Player.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kostya/tp_tasks/TpPatterns/Player.cpp -o CMakeFiles/TpPatterns.dir/Player.cpp.s
 
 # Object files for target TpPatterns
 TpPatterns_OBJECTS = \
 "CMakeFiles/TpPatterns.dir/main.cpp.o" \
-"CMakeFiles/TpPatterns.dir/Unit.cpp.o" \
-"CMakeFiles/TpPatterns.dir/AllUnits/Civilian.cpp.o" \
-"CMakeFiles/TpPatterns.dir/AllUnits/Swordsman.cpp.o" \
-"CMakeFiles/TpPatterns.dir/AllUnits/Archer.cpp.o" \
-"CMakeFiles/TpPatterns.dir/AllUnits/HorseRider.cpp.o" \
+"CMakeFiles/TpPatterns.dir/Units.cpp.o" \
 "CMakeFiles/TpPatterns.dir/Squad.cpp.o" \
 "CMakeFiles/TpPatterns.dir/Army.cpp.o" \
-"CMakeFiles/TpPatterns.dir/FractionFactory.cpp.o" \
+"CMakeFiles/TpPatterns.dir/Fractions.cpp.o" \
 "CMakeFiles/TpPatterns.dir/Finance.cpp.o" \
-"CMakeFiles/TpPatterns.dir/AllFractions/AttackingFraction.cpp.o" \
-"CMakeFiles/TpPatterns.dir/AllFractions/DefendingFraction.cpp.o" \
-"CMakeFiles/TpPatterns.dir/AllFractions/EconomyFraction.cpp.o" \
-"CMakeFiles/TpPatterns.dir/Event.cpp.o"
+"CMakeFiles/TpPatterns.dir/Player.cpp.o"
 
 # External object files for target TpPatterns
 TpPatterns_EXTERNAL_OBJECTS =
 
 TpPatterns: CMakeFiles/TpPatterns.dir/main.cpp.o
-TpPatterns: CMakeFiles/TpPatterns.dir/Unit.cpp.o
-TpPatterns: CMakeFiles/TpPatterns.dir/AllUnits/Civilian.cpp.o
-TpPatterns: CMakeFiles/TpPatterns.dir/AllUnits/Swordsman.cpp.o
-TpPatterns: CMakeFiles/TpPatterns.dir/AllUnits/Archer.cpp.o
-TpPatterns: CMakeFiles/TpPatterns.dir/AllUnits/HorseRider.cpp.o
+TpPatterns: CMakeFiles/TpPatterns.dir/Units.cpp.o
 TpPatterns: CMakeFiles/TpPatterns.dir/Squad.cpp.o
 TpPatterns: CMakeFiles/TpPatterns.dir/Army.cpp.o
-TpPatterns: CMakeFiles/TpPatterns.dir/FractionFactory.cpp.o
+TpPatterns: CMakeFiles/TpPatterns.dir/Fractions.cpp.o
 TpPatterns: CMakeFiles/TpPatterns.dir/Finance.cpp.o
-TpPatterns: CMakeFiles/TpPatterns.dir/AllFractions/AttackingFraction.cpp.o
-TpPatterns: CMakeFiles/TpPatterns.dir/AllFractions/DefendingFraction.cpp.o
-TpPatterns: CMakeFiles/TpPatterns.dir/AllFractions/EconomyFraction.cpp.o
-TpPatterns: CMakeFiles/TpPatterns.dir/Event.cpp.o
+TpPatterns: CMakeFiles/TpPatterns.dir/Player.cpp.o
 TpPatterns: CMakeFiles/TpPatterns.dir/build.make
 TpPatterns: CMakeFiles/TpPatterns.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable TpPatterns"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable TpPatterns"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TpPatterns.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

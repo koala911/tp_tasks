@@ -1,14 +1,15 @@
 #include <iostream>
-#include "AllUnits/IncludeAll.h"
-#include "AllFractions/IncludeAll.h"
+#include "Units.h"
+#include "Fractions.h"
 
 int main() {
     auto squad = new Squad;
-    FractionFactory* fraction = new DefendingFraction;
+    Fraction* fraction = new DefendingFraction;
     fraction->AddNewSquad(squad);
     fraction->AddBonusUnit(0);
     fraction->AddBonusUnit(0);
     fraction->Defend(50);
     fraction->Earn(0);
+    fraction->BuyUnit<HorseRider>(0);
     delete fraction;
 }

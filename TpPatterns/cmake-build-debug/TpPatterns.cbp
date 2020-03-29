@@ -80,64 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllFractions/AttackingFraction.cpp">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllFractions/AttackingFraction.h">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllFractions/DefendingFraction.cpp">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllFractions/DefendingFraction.h">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllFractions/EconomyFraction.cpp">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllFractions/EconomyFraction.h">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllFractions/IncludeAll.h">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/Archer.cpp">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/Archer.h">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/Civilian.cpp">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/Civilian.h">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/HorseRider.cpp">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/HorseRider.h">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/IncludeAll.h">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/Swordsman.cpp">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/AllUnits/Swordsman.h">
-			<Option target="TpPatterns"/>
-		</Unit>
 		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Army.cpp">
 			<Option target="TpPatterns"/>
 		</Unit>
 		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Army.h">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Event.cpp">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Event.h">
 			<Option target="TpPatterns"/>
 		</Unit>
 		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Finance.cpp">
@@ -146,10 +92,16 @@
 		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Finance.h">
 			<Option target="TpPatterns"/>
 		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/FractionFactory.cpp">
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Fractions.cpp">
 			<Option target="TpPatterns"/>
 		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/FractionFactory.h">
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Fractions.h">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Player.cpp">
+			<Option target="TpPatterns"/>
+		</Unit>
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Player.h">
 			<Option target="TpPatterns"/>
 		</Unit>
 		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Squad.cpp">
@@ -158,10 +110,10 @@
 		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Squad.h">
 			<Option target="TpPatterns"/>
 		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Unit.cpp">
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Units.cpp">
 			<Option target="TpPatterns"/>
 		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Unit.h">
+		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Units.h">
 			<Option target="TpPatterns"/>
 		</Unit>
 		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/main.cpp">

@@ -7,6 +7,7 @@ public:
 
     void AddMoney(double added_money);
     void SpendMoney(double spended_money);
+    bool EnoughMoney(double money) const;
     double GetMoney() const;
 
 private:

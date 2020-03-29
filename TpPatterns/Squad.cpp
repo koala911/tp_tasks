@@ -1,5 +1,5 @@
 #include "Squad.h"
-#include "AllUnits/IncludeAll.h"
+#include "Units.h"
 #include <algorithm>
 
 Squad::~Squad() {

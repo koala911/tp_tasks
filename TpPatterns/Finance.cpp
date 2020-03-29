@@ -15,6 +15,10 @@ void Finance::SpendMoney(double spended_money) {
     }
 }
 
+bool Finance::EnoughMoney(double money) const {
+    return money <= this->money;
+}
+
 double Finance::GetMoney() const {
     return money;
 }

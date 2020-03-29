@@ -123,195 +123,6 @@ TpPatterns/fast:
 	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/build
 .PHONY : TpPatterns/fast
 
-AllFractions/AttackingFraction.o: AllFractions/AttackingFraction.cpp.o
-
-.PHONY : AllFractions/AttackingFraction.o
-
-# target to build an object file
-AllFractions/AttackingFraction.cpp.o:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllFractions/AttackingFraction.cpp.o
-.PHONY : AllFractions/AttackingFraction.cpp.o
-
-AllFractions/AttackingFraction.i: AllFractions/AttackingFraction.cpp.i
-
-.PHONY : AllFractions/AttackingFraction.i
-
-# target to preprocess a source file
-AllFractions/AttackingFraction.cpp.i:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllFractions/AttackingFraction.cpp.i
-.PHONY : AllFractions/AttackingFraction.cpp.i
-
-AllFractions/AttackingFraction.s: AllFractions/AttackingFraction.cpp.s
-
-.PHONY : AllFractions/AttackingFraction.s
-
-# target to generate assembly for a file
-AllFractions/AttackingFraction.cpp.s:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllFractions/AttackingFraction.cpp.s
-.PHONY : AllFractions/AttackingFraction.cpp.s
-
-AllFractions/DefendingFraction.o: AllFractions/DefendingFraction.cpp.o
-
-.PHONY : AllFractions/DefendingFraction.o
-
-# target to build an object file
-AllFractions/DefendingFraction.cpp.o:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllFractions/DefendingFraction.cpp.o
-.PHONY : AllFractions/DefendingFraction.cpp.o
-
-AllFractions/DefendingFraction.i: AllFractions/DefendingFraction.cpp.i
-
-.PHONY : AllFractions/DefendingFraction.i
-
-# target to preprocess a source file
-AllFractions/DefendingFraction.cpp.i:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllFractions/DefendingFraction.cpp.i
-.PHONY : AllFractions/DefendingFraction.cpp.i
-
-AllFractions/DefendingFraction.s: AllFractions/DefendingFraction.cpp.s
-
-.PHONY : AllFractions/DefendingFraction.s
-
-# target to generate assembly for a file
-AllFractions/DefendingFraction.cpp.s:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllFractions/DefendingFraction.cpp.s
-.PHONY : AllFractions/DefendingFraction.cpp.s
-
-AllFractions/EconomyFraction.o: AllFractions/EconomyFraction.cpp.o
-
-.PHONY : AllFractions/EconomyFraction.o
-
-# target to build an object file
-AllFractions/EconomyFraction.cpp.o:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllFractions/EconomyFraction.cpp.o
-.PHONY : AllFractions/EconomyFraction.cpp.o
-
-AllFractions/EconomyFraction.i: AllFractions/EconomyFraction.cpp.i
-
-.PHONY : AllFractions/EconomyFraction.i
-
-# target to preprocess a source file
-AllFractions/EconomyFraction.cpp.i:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllFractions/EconomyFraction.cpp.i
-.PHONY : AllFractions/EconomyFraction.cpp.i
-
-AllFractions/EconomyFraction.s: AllFractions/EconomyFraction.cpp.s
-
-.PHONY : AllFractions/EconomyFraction.s
-
-# target to generate assembly for a file
-AllFractions/EconomyFraction.cpp.s:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllFractions/EconomyFraction.cpp.s
-.PHONY : AllFractions/EconomyFraction.cpp.s
-
-AllUnits/Archer.o: AllUnits/Archer.cpp.o
-
-.PHONY : AllUnits/Archer.o
-
-# target to build an object file
-AllUnits/Archer.cpp.o:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllUnits/Archer.cpp.o
-.PHONY : AllUnits/Archer.cpp.o
-
-AllUnits/Archer.i: AllUnits/Archer.cpp.i
-
-.PHONY : AllUnits/Archer.i
-
-# target to preprocess a source file
-AllUnits/Archer.cpp.i:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllUnits/Archer.cpp.i
-.PHONY : AllUnits/Archer.cpp.i
-
-AllUnits/Archer.s: AllUnits/Archer.cpp.s
-
-.PHONY : AllUnits/Archer.s
-
-# target to generate assembly for a file
-AllUnits/Archer.cpp.s:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllUnits/Archer.cpp.s
-.PHONY : AllUnits/Archer.cpp.s
-
-AllUnits/Civilian.o: AllUnits/Civilian.cpp.o
-
-.PHONY : AllUnits/Civilian.o
-
-# target to build an object file
-AllUnits/Civilian.cpp.o:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllUnits/Civilian.cpp.o
-.PHONY : AllUnits/Civilian.cpp.o
-
-AllUnits/Civilian.i: AllUnits/Civilian.cpp.i
-
-.PHONY : AllUnits/Civilian.i
-
-# target to preprocess a source file
-AllUnits/Civilian.cpp.i:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllUnits/Civilian.cpp.i
-.PHONY : AllUnits/Civilian.cpp.i
-
-AllUnits/Civilian.s: AllUnits/Civilian.cpp.s
-
-.PHONY : AllUnits/Civilian.s
-
-# target to generate assembly for a file
-AllUnits/Civilian.cpp.s:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllUnits/Civilian.cpp.s
-.PHONY : AllUnits/Civilian.cpp.s
-
-AllUnits/HorseRider.o: AllUnits/HorseRider.cpp.o
-
-.PHONY : AllUnits/HorseRider.o
-
-# target to build an object file
-AllUnits/HorseRider.cpp.o:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllUnits/HorseRider.cpp.o
-.PHONY : AllUnits/HorseRider.cpp.o
-
-AllUnits/HorseRider.i: AllUnits/HorseRider.cpp.i
-
-.PHONY : AllUnits/HorseRider.i
-
-# target to preprocess a source file
-AllUnits/HorseRider.cpp.i:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllUnits/HorseRider.cpp.i
-.PHONY : AllUnits/HorseRider.cpp.i
-
-AllUnits/HorseRider.s: AllUnits/HorseRider.cpp.s
-
-.PHONY : AllUnits/HorseRider.s
-
-# target to generate assembly for a file
-AllUnits/HorseRider.cpp.s:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllUnits/HorseRider.cpp.s
-.PHONY : AllUnits/HorseRider.cpp.s
-
-AllUnits/Swordsman.o: AllUnits/Swordsman.cpp.o
-
-.PHONY : AllUnits/Swordsman.o
-
-# target to build an object file
-AllUnits/Swordsman.cpp.o:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllUnits/Swordsman.cpp.o
-.PHONY : AllUnits/Swordsman.cpp.o
-
-AllUnits/Swordsman.i: AllUnits/Swordsman.cpp.i
-
-.PHONY : AllUnits/Swordsman.i
-
-# target to preprocess a source file
-AllUnits/Swordsman.cpp.i:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllUnits/Swordsman.cpp.i
-.PHONY : AllUnits/Swordsman.cpp.i
-
-AllUnits/Swordsman.s: AllUnits/Swordsman.cpp.s
-
-.PHONY : AllUnits/Swordsman.s
-
-# target to generate assembly for a file
-AllUnits/Swordsman.cpp.s:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/AllUnits/Swordsman.cpp.s
-.PHONY : AllUnits/Swordsman.cpp.s
-
 Army.o: Army.cpp.o
 
 .PHONY : Army.o
@@ -338,33 +149,6 @@ Army.s: Army.cpp.s
 Army.cpp.s:
 	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Army.cpp.s
 .PHONY : Army.cpp.s
-
-Event.o: Event.cpp.o
-
-.PHONY : Event.o
-
-# target to build an object file
-Event.cpp.o:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Event.cpp.o
-.PHONY : Event.cpp.o
-
-Event.i: Event.cpp.i
-
-.PHONY : Event.i
-
-# target to preprocess a source file
-Event.cpp.i:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Event.cpp.i
-.PHONY : Event.cpp.i
-
-Event.s: Event.cpp.s
-
-.PHONY : Event.s
-
-# target to generate assembly for a file
-Event.cpp.s:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Event.cpp.s
-.PHONY : Event.cpp.s
 
 Finance.o: Finance.cpp.o
 
@@ -393,32 +177,59 @@ Finance.cpp.s:
 	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Finance.cpp.s
 .PHONY : Finance.cpp.s
 
-FractionFactory.o: FractionFactory.cpp.o
+Fractions.o: Fractions.cpp.o
 
-.PHONY : FractionFactory.o
+.PHONY : Fractions.o
 
 # target to build an object file
-FractionFactory.cpp.o:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/FractionFactory.cpp.o
-.PHONY : FractionFactory.cpp.o
+Fractions.cpp.o:
+	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Fractions.cpp.o
+.PHONY : Fractions.cpp.o
 
-FractionFactory.i: FractionFactory.cpp.i
+Fractions.i: Fractions.cpp.i
 
-.PHONY : FractionFactory.i
+.PHONY : Fractions.i
 
 # target to preprocess a source file
-FractionFactory.cpp.i:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/FractionFactory.cpp.i
-.PHONY : FractionFactory.cpp.i
+Fractions.cpp.i:
+	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Fractions.cpp.i
+.PHONY : Fractions.cpp.i
 
-FractionFactory.s: FractionFactory.cpp.s
+Fractions.s: Fractions.cpp.s
 
-.PHONY : FractionFactory.s
+.PHONY : Fractions.s
 
 # target to generate assembly for a file
-FractionFactory.cpp.s:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/FractionFactory.cpp.s
-.PHONY : FractionFactory.cpp.s
+Fractions.cpp.s:
+	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Fractions.cpp.s
+.PHONY : Fractions.cpp.s
+
+Player.o: Player.cpp.o
+
+.PHONY : Player.o
+
+# target to build an object file
+Player.cpp.o:
+	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Player.cpp.o
+.PHONY : Player.cpp.o
+
+Player.i: Player.cpp.i
+
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Player.cpp.s
+.PHONY : Player.cpp.s
 
 Squad.o: Squad.cpp.o
 
@@ -447,32 +258,32 @@ Squad.cpp.s:
 	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Squad.cpp.s
 .PHONY : Squad.cpp.s
 
-Unit.o: Unit.cpp.o
+Units.o: Units.cpp.o
 
-.PHONY : Unit.o
+.PHONY : Units.o
 
 # target to build an object file
-Unit.cpp.o:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Unit.cpp.o
-.PHONY : Unit.cpp.o
+Units.cpp.o:
+	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Units.cpp.o
+.PHONY : Units.cpp.o
 
-Unit.i: Unit.cpp.i
+Units.i: Units.cpp.i
 
-.PHONY : Unit.i
+.PHONY : Units.i
 
 # target to preprocess a source file
-Unit.cpp.i:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Unit.cpp.i
-.PHONY : Unit.cpp.i
+Units.cpp.i:
+	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Units.cpp.i
+.PHONY : Units.cpp.i
 
-Unit.s: Unit.cpp.s
+Units.s: Units.cpp.s
 
-.PHONY : Unit.s
+.PHONY : Units.s
 
 # target to generate assembly for a file
-Unit.cpp.s:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Unit.cpp.s
-.PHONY : Unit.cpp.s
+Units.cpp.s:
+	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Units.cpp.s
+.PHONY : Units.cpp.s
 
 main.o: main.cpp.o
 
@@ -510,45 +321,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... TpPatterns"
-	@echo "... AllFractions/AttackingFraction.o"
-	@echo "... AllFractions/AttackingFraction.i"
-	@echo "... AllFractions/AttackingFraction.s"
-	@echo "... AllFractions/DefendingFraction.o"
-	@echo "... AllFractions/DefendingFraction.i"
-	@echo "... AllFractions/DefendingFraction.s"
-	@echo "... AllFractions/EconomyFraction.o"
-	@echo "... AllFractions/EconomyFraction.i"
-	@echo "... AllFractions/EconomyFraction.s"
-	@echo "... AllUnits/Archer.o"
-	@echo "... AllUnits/Archer.i"
-	@echo "... AllUnits/Archer.s"
-	@echo "... AllUnits/Civilian.o"
-	@echo "... AllUnits/Civilian.i"
-	@echo "... AllUnits/Civilian.s"
-	@echo "... AllUnits/HorseRider.o"
-	@echo "... AllUnits/HorseRider.i"
-	@echo "... AllUnits/HorseRider.s"
-	@echo "... AllUnits/Swordsman.o"
-	@echo "... AllUnits/Swordsman.i"
-	@echo "... AllUnits/Swordsman.s"
 	@echo "... Army.o"
 	@echo "... Army.i"
 	@echo "... Army.s"
-	@echo "... Event.o"
-	@echo "... Event.i"
-	@echo "... Event.s"
 	@echo "... Finance.o"
 	@echo "... Finance.i"
 	@echo "... Finance.s"
-	@echo "... FractionFactory.o"
-	@echo "... FractionFactory.i"
-	@echo "... FractionFactory.s"
+	@echo "... Fractions.o"
+	@echo "... Fractions.i"
+	@echo "... Fractions.s"
+	@echo "... Player.o"
+	@echo "... Player.i"
+	@echo "... Player.s"
 	@echo "... Squad.o"
 	@echo "... Squad.i"
 	@echo "... Squad.s"
-	@echo "... Unit.o"
-	@echo "... Unit.i"
-	@echo "... Unit.s"
+	@echo "... Units.o"
+	@echo "... Units.i"
+	@echo "... Units.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
