@@ -1,9 +1,9 @@
 add_library(buffer SHARED buffer.cpp)
 install(    
         TARGETS buffer 
-        RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX}/bin
-        LIBRARY DESTINATION ${CMAKE_INSTALL_PREFIX}/bin
-        ARCHIVE DESTINATION ${CMAKE_INSTALL_PREFIX}/lib
-        PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_PREFIX}/include
-        INCLUDES DESTINATION ${CMAKE_INSTALL_PREFIX}/include
+        RUNTIME DESTINATION /usr/local/bin
+        LIBRARY DESTINATION /usr/local/bin
+        ARCHIVE DESTINATION /usr/local/lib
+        PUBLIC_HEADER DESTINATION /usr/local/include
+        INCLUDES DESTINATION /usr/local/include
         )
