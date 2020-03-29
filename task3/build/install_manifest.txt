@@ -1,0 +1,3 @@
+/usr/local/bin/Main
+/usr/local/bin/MainLib
+/usr/local/bin/libbuffer.dylib
