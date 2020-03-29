@@ -29,4 +29,5 @@ install(
         ARCHIVE DESTINATION bin
         INCLUDES DESTINATION bin
     )
+install(FILES incude/buffer.h DESTINATION bin)
 #install(TARGETS MainLib DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
