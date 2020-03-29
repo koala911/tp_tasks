@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/buffer.h
+string
+-
+
+/Users/kostya/tp_tasks/task3/main_lib.cpp
+buffer.h
+-
+iostream
+-
+

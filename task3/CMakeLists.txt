@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-set(CMAKE_CXX_COMPILER ${TOOLCHAIN}/arm-linux-gnueabihf-g++)
+#set(CMAKE_CXX_COMPILER ${TOOLCHAIN}/arm-linux-gnueabihf-g++)
 
 project(SimpleLibrary)
 
@@ -25,8 +25,8 @@ target_link_libraries(MainLib buffer)
 install(    
         TARGETS Main MainLib 
         RUNTIME DESTINATION bin
-        LIBRARY DESTINATION bin
-        ARCHIVE DESTINATION bin
-        INCLUDES DESTINATION bin
+        LIBRARY DESTINATION lib
+        ARCHIVE DESTINATION lib
+        INCLUDES DESTINATION include
     )
 #install(TARGETS MainLib DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
