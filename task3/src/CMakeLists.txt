@@ -1,5 +1,4 @@
 add_library(buffer SHARED buffer.cpp)
-find_path(LIB_INCLUDE_PATH ../include/buffer.h)
 install(    
         TARGETS buffer 
         RUNTIME DESTINATION bin
@@ -8,4 +7,3 @@ install(
         PUBLIC_HEADER DESTINATION bin
         INCLUDES DESTINATION bin
         )
-find_path(LIB_INCLUDE_PATH ../include/buffer.h)
