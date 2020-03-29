@@ -22,11 +22,4 @@ add_executable(MainLib main_lib.cpp)
 
 target_link_libraries(MainLib buffer)
 
-install(    
-        TARGETS Main MainLib 
-        RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX}/bin
-        LIBRARY DESTINATION ${CMAKE_INSTALL_PREFIX}/bin
-        ARCHIVE DESTINATION ${CMAKE_INSTALL_PREFIX}/lib
-        PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_PREFIX}/include
-        INCLUDES DESTINATION ${CMAKE_INSTALL_PREFIX}/include
-        )
+install(TARGETS Main MainLib DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
