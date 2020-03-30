@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/kostya/tp_tasks/TpPatterns/Army.cpp
+Army.h
+/Users/kostya/tp_tasks/TpPatterns/Army.h
+algorithm
+-
+
 /Users/kostya/tp_tasks/TpPatterns/Army.h
 Squad.h
 /Users/kostya/tp_tasks/TpPatterns/Squad.h
@@ -14,6 +20,10 @@ vector
 
 /Users/kostya/tp_tasks/TpPatterns/Finance.h
 
+/Users/kostya/tp_tasks/TpPatterns/Fractions.cpp
+Fractions.h
+/Users/kostya/tp_tasks/TpPatterns/Fractions.h
+
 /Users/kostya/tp_tasks/TpPatterns/Fractions.h
 Army.h
 /Users/kostya/tp_tasks/TpPatterns/Army.h
@@ -21,16 +31,6 @@ Units.h
 /Users/kostya/tp_tasks/TpPatterns/Units.h
 Finance.h
 /Users/kostya/tp_tasks/TpPatterns/Finance.h
-
-/Users/kostya/tp_tasks/TpPatterns/Player.cpp
-Player.h
-/Users/kostya/tp_tasks/TpPatterns/Player.h
-
-/Users/kostya/tp_tasks/TpPatterns/Player.h
-Fractions.h
-/Users/kostya/tp_tasks/TpPatterns/Fractions.h
-string
--
 
 /Users/kostya/tp_tasks/TpPatterns/Squad.h
 Units.h
@@ -45,4 +45,12 @@ functional
 -
 iostream
 -
+
+/Users/kostya/tp_tasks/TpPatterns/main.cpp
+iostream
+-
+Units.h
+/Users/kostya/tp_tasks/TpPatterns/Units.h
+Fractions.h
+/Users/kostya/tp_tasks/TpPatterns/Fractions.h
 

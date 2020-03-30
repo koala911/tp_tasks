@@ -7,8 +7,16 @@ Army::~Army() {
     }
 }
 
-size_t Army::GetSize() const {
+size_t Army::GetNumberOfSquads() const {
     return squads.size();
+}
+
+size_t Army::GetNumberOfUnits() const {
+    size_t result = 0;
+    for (Squad* squad: squads) {
+        result += squad->GetSize();
+    }
+    return result;
 }
 
 bool Army::IsEmpty() const {

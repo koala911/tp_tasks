@@ -98,12 +98,6 @@
 		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Fractions.h">
 			<Option target="TpPatterns"/>
 		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Player.cpp">
-			<Option target="TpPatterns"/>
-		</Unit>
-		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Player.h">
-			<Option target="TpPatterns"/>
-		</Unit>
 		<Unit filename="/Users/kostya/tp_tasks/TpPatterns/Squad.cpp">
 			<Option target="TpPatterns"/>
 		</Unit>

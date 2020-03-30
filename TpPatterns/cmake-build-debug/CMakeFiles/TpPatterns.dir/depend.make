@@ -16,14 +16,6 @@ CMakeFiles/TpPatterns.dir/Fractions.cpp.o: ../Fractions.h
 CMakeFiles/TpPatterns.dir/Fractions.cpp.o: ../Squad.h
 CMakeFiles/TpPatterns.dir/Fractions.cpp.o: ../Units.h
 
-CMakeFiles/TpPatterns.dir/Player.cpp.o: ../Army.h
-CMakeFiles/TpPatterns.dir/Player.cpp.o: ../Finance.h
-CMakeFiles/TpPatterns.dir/Player.cpp.o: ../Fractions.h
-CMakeFiles/TpPatterns.dir/Player.cpp.o: ../Player.cpp
-CMakeFiles/TpPatterns.dir/Player.cpp.o: ../Player.h
-CMakeFiles/TpPatterns.dir/Player.cpp.o: ../Squad.h
-CMakeFiles/TpPatterns.dir/Player.cpp.o: ../Units.h
-
 CMakeFiles/TpPatterns.dir/Squad.cpp.o: ../Squad.cpp
 CMakeFiles/TpPatterns.dir/Squad.cpp.o: ../Squad.h
 CMakeFiles/TpPatterns.dir/Squad.cpp.o: ../Units.h

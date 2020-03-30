@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/kostya/tp_tasks/TpPatterns/Army.cpp" "/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles/TpPatterns.dir/Army.cpp.o"
   "/Users/kostya/tp_tasks/TpPatterns/Finance.cpp" "/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles/TpPatterns.dir/Finance.cpp.o"
   "/Users/kostya/tp_tasks/TpPatterns/Fractions.cpp" "/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles/TpPatterns.dir/Fractions.cpp.o"
-  "/Users/kostya/tp_tasks/TpPatterns/Player.cpp" "/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles/TpPatterns.dir/Player.cpp.o"
   "/Users/kostya/tp_tasks/TpPatterns/Squad.cpp" "/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles/TpPatterns.dir/Squad.cpp.o"
   "/Users/kostya/tp_tasks/TpPatterns/Units.cpp" "/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles/TpPatterns.dir/Units.cpp.o"
   "/Users/kostya/tp_tasks/TpPatterns/main.cpp" "/Users/kostya/tp_tasks/TpPatterns/cmake-build-debug/CMakeFiles/TpPatterns.dir/main.cpp.o"

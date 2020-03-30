@@ -7,7 +7,8 @@ public:
     explicit Army() = default;
     ~Army();
 
-    size_t GetSize() const;
+    size_t GetNumberOfSquads() const;
+    size_t GetNumberOfUnits() const;
     double GetTotalDamage() const;
     double GetTotalEarnings() const;
     bool IsEmpty() const;

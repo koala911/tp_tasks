@@ -7,7 +7,8 @@ Fraction::~Fraction() {
     delete finance;
 }
 
-void Fraction::AddNewSquad(Squad* const& new_squad) {
+void Fraction::CreateNewSquad() {
+    Squad* new_squad = new Squad;
     army->AddSquad(new_squad);
 }
 
@@ -21,7 +22,7 @@ void Fraction::AddBonusUnit(size_t squad_number) {
 }
 
 size_t Fraction::GetArmySize() const {
-    return army->GetSize();
+    return army->GetNumberOfUnits();
 }
 
 //----------------------------------------------------------------------------------------------------------------------

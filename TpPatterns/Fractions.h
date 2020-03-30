@@ -13,9 +13,8 @@ public:
     virtual void Earn(size_t squad_number) = 0;
     virtual void Defend(double damage) = 0;
 
-    void AddNewSquad(Squad* const& new_squad);
+    void CreateNewSquad();
     void AddBonusUnit(size_t squad_number);
-    void AddNewUnit(Unit* const& new_unit, size_t squad_number);
     template<class UnitToBuy>
     void BuyUnit(size_t squad_number);
     size_t GetArmySize() const;
@@ -25,6 +24,7 @@ protected:
     Finance* const finance;
     int unit_id_counter;
 
+    void AddNewUnit(Unit* const& new_unit, size_t squad_number);
     virtual Unit* CreateBonusUnit() = 0; // фабричный метод для создания нового бонусного юнита
 };
 

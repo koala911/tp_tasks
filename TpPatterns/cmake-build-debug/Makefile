@@ -204,33 +204,6 @@ Fractions.cpp.s:
 	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Fractions.cpp.s
 .PHONY : Fractions.cpp.s
 
-Player.o: Player.cpp.o
-
-.PHONY : Player.o
-
-# target to build an object file
-Player.cpp.o:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Player.cpp.o
-.PHONY : Player.cpp.o
-
-Player.i: Player.cpp.i
-
-.PHONY : Player.i
-
-# target to preprocess a source file
-Player.cpp.i:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Player.cpp.i
-.PHONY : Player.cpp.i
-
-Player.s: Player.cpp.s
-
-.PHONY : Player.s
-
-# target to generate assembly for a file
-Player.cpp.s:
-	$(MAKE) -f CMakeFiles/TpPatterns.dir/build.make CMakeFiles/TpPatterns.dir/Player.cpp.s
-.PHONY : Player.cpp.s
-
 Squad.o: Squad.cpp.o
 
 .PHONY : Squad.o
@@ -330,9 +303,6 @@ help:
 	@echo "... Fractions.o"
 	@echo "... Fractions.i"
 	@echo "... Fractions.s"
-	@echo "... Player.o"
-	@echo "... Player.i"
-	@echo "... Player.s"
 	@echo "... Squad.o"
 	@echo "... Squad.i"
 	@echo "... Squad.s"

@@ -3,4 +3,12 @@ project(TpPatterns)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(TpPatterns main.cpp Units.cpp Units.h Squad.cpp Squad.h Army.cpp Army.h Fractions.cpp Fractions.h Finance.cpp Finance.h Fractions.h Fractions.cpp Player.cpp Player.h)
+add_executable(TpPatterns
+        main.cpp
+        Units.cpp Units.h
+        Squad.cpp Squad.h
+        Army.cpp Army.h
+        Fractions.cpp Fractions.h
+        Finance.cpp Finance.h
+        Fractions.h Fractions.cpp
+        )
