@@ -14,9 +14,13 @@ jobs:
     - name: cloning repo
       uses: actions/checkout@v1
 
+    - name: check directory
+      run:
+        ls -a
+
     - name: Build
       run: |
-        cd C
+        cd ./task4/C
         mkdir build
         cd build 
         cmake ..
