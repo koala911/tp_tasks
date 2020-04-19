@@ -50,6 +50,9 @@ public:
 
 private:
     Unit* CreateBonusUnit() override;
+
+    const double attacking_coefficient = 1.1;
+    const double defending_coefficient = 1.1;
 };
 
 //----------------------------------------------------------------------------------------------------------------------
@@ -62,6 +65,9 @@ public:
 
 private:
     Unit* CreateBonusUnit() override;
+
+    const double attacking_coefficient = 0.9;
+    const double defending_coefficient = 0.9;
 };
 
 //----------------------------------------------------------------------------------------------------------------------
@@ -74,4 +80,6 @@ public:
 
 private:
     Unit* CreateBonusUnit() override;
+
+    const double earning_coefficient = 1.1
 };
