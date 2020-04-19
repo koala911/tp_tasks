@@ -13,3 +13,12 @@ jobs:
     steps:
     - name: cloning repo
       uses: actions/checkout@v1
+
+    steps:
+    - name: Build
+      run: |
+        cd C
+        mkdir build
+        cd build 
+        cmake ..
+        make
