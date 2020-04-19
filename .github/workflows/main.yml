@@ -20,8 +20,7 @@ jobs:
 
     - name: Build
       run: |
-        cd ./task4/C
         mkdir build
         cd build 
-        cmake ..
+        cmake -DTask4_SOURCE_DIR=.. ../task4/C
         make
