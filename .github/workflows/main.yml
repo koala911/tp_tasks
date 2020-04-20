@@ -30,7 +30,7 @@ jobs:
         make
     - name: check dir
       run: |
-        cd task4/TechProgCITemplate/build
+        cd task4/TechProgCITemplate/build/C
         ls -a
     - name: Test
       uses: akhtyamovpavel/ActionGtestReport@v0.0.9
@@ -40,5 +40,4 @@ jobs:
         working-directory: '.'
     - name: check dir2
       run: |
-        cd task4/TechProgCITemplate/build
         ls -a
