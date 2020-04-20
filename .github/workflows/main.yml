@@ -35,6 +35,10 @@ jobs:
     - name: Test
       uses: akhtyamovpavel/ActionGtestReport@v0.0.9
       with: 
-        exec-path: 'task4/TechProgCITemplate/C/CTestExe'
+        exec-path: 'task4/TechProgCITemplate/build/C/CTestExe'
         report-path: 'report-test'
         working-directory: '.'
+    - name: check dir2
+      run: |
+        cd task4/TechProgCITemplate/build
+        ls -a
