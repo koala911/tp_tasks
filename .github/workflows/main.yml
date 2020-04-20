@@ -26,8 +26,9 @@ jobs:
         cd ..
         mkdir build 
         cd build
-        cmake ..
+        cmake -DCMAKE_INSTALL_PREFIX=$HOME/ ..
         make
+        make install
     - name: check dir
       run: |
         cd task4/TechProgCITemplate/bin/
