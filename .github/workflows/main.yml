@@ -29,20 +29,12 @@ jobs:
         cmake -DCMAKE_INSTALL_PREFIX=$HOME/ ..
         make
         make install
-    - name: check dir
-      run: |
-        cd task4/TechProgCITemplate/bin/
-        ls -a
     - name: Test
       uses: akhtyamovpavel/ActionGtestReport@v0.0.9
       with: 
         exec-path: 'task4/TechProgCITemplate/bin/CTestExe'
         report-path: './report.xml'
         working-directory: './'
-    - name: check dir2
-      run: |
-        ls -a
-        cat report.xml
     - name: UploadArtifacts
       uses: actions/upload-artifact@v1
       with:
