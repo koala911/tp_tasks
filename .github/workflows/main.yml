@@ -30,12 +30,12 @@ jobs:
         make
     - name: check dir
       run: |
-        cd task4/TechProgCITemplate/build/C
+        cd task4/TechProgCITemplate/build/bin/
         ls -a
     - name: Test
       uses: akhtyamovpavel/ActionGtestReport@v0.0.9
       with: 
-        exec-path: 'task4/TechProgCITemplate/build/C/CTestExe'
+        exec-path: 'task4/TechProgCITemplate/build/bin/CTestExe'
         report-path: 'report-test'
         working-directory: '.'
     - name: check dir2
