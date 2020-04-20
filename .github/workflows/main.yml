@@ -43,4 +43,7 @@ jobs:
         ls -a
         cat report.xml
     - name: UploadArtifacts
-      run: cp task4/TechProgCITemplate/bin/C Distributive
+      uses: actions/upload-artifact@v1
+      with:
+        name: Distributive
+        path: task4/TechProgCITemplate/bin/C
