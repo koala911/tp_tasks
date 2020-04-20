@@ -41,3 +41,4 @@ jobs:
     - name: check dir2
       run: |
         ls -a
+        cat test-report
