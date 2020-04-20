@@ -28,6 +28,10 @@ jobs:
         cd build
         cmake ..
         make
+    - name: check dir
+      run: |
+        cd task4/TechProgCITemplate
+        ls -a
     - name: Test
       uses: akhtyamovpavel/ActionGtestReport@v0.0.9
       with: 
