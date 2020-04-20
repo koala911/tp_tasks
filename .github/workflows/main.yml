@@ -21,7 +21,7 @@ jobs:
     - name: Build
       run: |
         cd task4/TechProgCITemplate
-        mkdir 3rparty
+        mkdir 3rdparty
         cd 3rdparty
         wget https://github.com/google/googletest/archive/release-1.8.0.tar.gz
         tar xf release-1.8.0.tar.gz
