@@ -14,10 +14,6 @@ jobs:
     - name: cloning repo
       uses: actions/checkout@v1
 
-    - name: check directory
-      run:
-        ls -a
-
     - name: Build
       run: |
         cd task4/TechProgCITemplate
@@ -32,4 +28,5 @@ jobs:
         cd build
         cmake ..
         make
-        # make install
+    - name: Test
+      uses: akhtyamovpavel/ActionGtestReport@v0.0.9
