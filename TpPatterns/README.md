@@ -1,5 +1,6 @@
 # Как запускать проект
-cd cmake-build-debug\
+mkdir build\
+cd build\
 cmake ..\
 make\
 ./TpPatterns

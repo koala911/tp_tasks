@@ -50,7 +50,7 @@ std::ostream& operator<<(std::ostream& out, const Unit& unit) {
 Civilian::Civilian(int id): Unit(id, initial_health, initial_damage, initial_earnings, initial_protection) {}
 
 std::string Civilian::GetType() const {
-    return "Civilian";
+    return type;
 }
 
 std::string Civilian::GetInfo() {
@@ -62,7 +62,7 @@ std::string Civilian::GetInfo() {
 Archer::Archer(int id): Unit(id, initial_health, initial_damage, initial_earnings, initial_protection) {}
 
 std::string Archer::GetType() const {
-    return "Archer";
+    return type;
 }
 
 std::string Archer::GetInfo() {
@@ -74,7 +74,7 @@ std::string Archer::GetInfo() {
 HorseRider::HorseRider(int id): Unit(id, initial_health, initial_damage, initial_earnings, initial_protection) {}
 
 std::string HorseRider::GetType() const {
-    return "Horse rider";
+    return type;
 }
 
 std::string HorseRider::GetInfo() {
@@ -86,10 +86,65 @@ std::string HorseRider::GetInfo() {
 Swordsman::Swordsman(int id): Unit(id, initial_health, initial_damage, initial_earnings, initial_protection) {}
 
 std::string Swordsman::GetType() const {
-    return "Swordsman";
+    return type;
 }
 
 std::string Swordsman::GetInfo() {
     return "Swordsman has a good protection and health, but not very big damage.\n";
 }
 
+//----------------------------------------------------------------------------------------------------------------------
+
+double CivilianFactory::GetCost() const {
+    return Civilian::cost;
+}
+
+Unit* CivilianFactory::CreateUnit(int id) const {
+    return new Civilian(id);
+}
+
+std::string CivilianFactory::GetType() const {
+    return Civilian::type;
+}
+
+//----------------------------------------------------------------------------------------------------------------------
+
+double ArcherFactory::GetCost() const {
+    return Archer::cost;
+}
+
+Unit* ArcherFactory::CreateUnit(int id) const {
+    return new Archer(id);
+}
+
+std::string ArcherFactory::GetType() const {
+    return Archer::type;
+}
+
+//----------------------------------------------------------------------------------------------------------------------
+
+double HorseRiderFactory::GetCost() const {
+    return HorseRider::cost;
+}
+
+Unit* HorseRiderFactory::CreateUnit(int id) const {
+    return new HorseRider(id);
+}
+
+std::string HorseRiderFactory::GetType() const {
+    return HorseRider::type;
+}
+
+//----------------------------------------------------------------------------------------------------------------------
+
+double SwordsmanFactory::GetCost() const {
+    return Swordsman::cost;
+}
+
+Unit* SwordsmanFactory::CreateUnit(int id) const {
+    return new Swordsman(id);
+}
+
+std::string SwordsmanFactory::GetType() const {
+    return Swordsman::type;
+}

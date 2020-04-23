@@ -11,7 +11,7 @@ void Finance::SpendMoney(double spended_money) {
     if (money - spended_money >= 0) {
         money -= spended_money;
     } else {
-        std::cerr << "Not enough money" << std::endl;
+        std::cout << "Not enough money" << std::endl;
     }
 }
 
