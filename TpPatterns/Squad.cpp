@@ -2,51 +2,25 @@
 #include "Units.h"
 #include <algorithm>
 
-Squad::~Squad() {
-    for (const auto& unit: units) {
-        delete unit;
-    }
-}
-
-size_t Squad::GetSize() const {
-    return units.size();
-}
-
-bool Squad::IsEmpty() const {
-    return units.empty();
-}
-
-void Squad::AddUnit(Unit* const& new_unit) {
-    units.push_back(const_cast<Unit*>(new_unit));
-    total_damage += new_unit->GetDamage();
-    total_earnings += new_unit->GetEarnings();
-}
-
 void Squad::ToHit(double damage) {
-    for (Unit* unit: units) {
-        unit->ToHit(damage);
-        if (unit->IsDead()) {
-            total_damage -= unit->GetDamage();
-            total_earnings -= unit->GetEarnings();
-            delete unit;
-            unit = nullptr;
+    CompositeNode::ToHit(damage);
+    deleteDeadUnits();
+}
+
+void Squad::deleteDeadUnits() {
+    for (ArmyNode *subnode: subnodes) {
+        try {
+            Unit &unit = dynamic_cast<Unit &>(*subnode);
+            if (unit.IsDead()) {
+                delete subnode;
+                subnode = nullptr;
+            }
+        } catch (const std::bad_cast &exception) {
+            std::cerr << "Squad contains non-Unit object" << std::endl;
         }
     }
-    deleteNullPointers();
-}
-
-void Squad::deleteNullPointers() {
-    auto iterator = std::find(units.begin(), units.end(), nullptr);
-    while (iterator != units.end()) {
-        units.erase(iterator);
+    auto iterator = std::find(subnodes.begin(), subnodes.end(), nullptr);
+    while (iterator != subnodes.end()) {
+        subnodes.erase(iterator);
     }
 }
-
-double Squad::GetTotalDamage() const {
-    return total_damage;
-}
-
-double Squad::GetTotalEarnings() const {
-    return total_earnings;
-}
-

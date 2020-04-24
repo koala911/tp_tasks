@@ -34,6 +34,9 @@ bool Unit::IsDead() const {
     return (health <= 0);
 }
 
+size_t Unit::CountUnits() const {
+    return 1;
+}
 
 std::ostream& operator<<(std::ostream& out, const Unit& unit) {
     out << unit.GetType() << " " << unit.GetId() << std::endl;

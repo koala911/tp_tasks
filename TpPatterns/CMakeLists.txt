@@ -11,4 +11,4 @@ add_executable(TpPatterns
         Fractions.cpp Fractions.h
         Finance.cpp Finance.h
         Fractions.h Fractions.cpp
-        )
+        ArmyNode.cpp ArmyNode.h)

@@ -2,20 +2,22 @@
 #include <string>
 #include <functional>
 #include <iostream>
+#include "ArmyNode.h"
 
-class Unit {
+class Unit: public ArmyNode {
 public:
     Unit() = delete;
     explicit Unit(int id, double health, double damage, double earnings, double protection);
     virtual ~Unit() = default;
     virtual std::string GetType() const = 0;
-    double GetHealth() const;
-    double GetDamage() const;
+    double GetHealth() const override;
+    double GetDamage() const override;
     int GetId() const;
     double GetProtection() const;
-    double GetEarnings() const;
+    double GetEarnings() const override;
+    size_t CountUnits() const override;
 
-    void ToHit(double damage);
+    void ToHit(double damage) override;
     bool IsDead() const;
 
 private:
