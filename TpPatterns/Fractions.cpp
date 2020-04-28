@@ -1,10 +1,11 @@
 #include "Fractions.h"
 
-Fraction::Fraction(): army(new Army), finance(new Finance), unit_id_counter(0) {}
+Fraction::Fraction(UnitFactory* bonus_unit_factory): army(new Army), finance(new Finance), unit_id_counter(0), bonus_unit_factory(bonus_unit_factory) {}
 
 Fraction::~Fraction() {
     delete army;
     delete finance;
+    delete bonus_unit_factory;
 }
 
 void Fraction::CreateNewSquad() {
@@ -17,7 +18,8 @@ void Fraction::AddNewUnit(Unit* const& new_unit, size_t squad_number) {
 }
 
 void Fraction::AddBonusUnit(size_t squad_number) {
-    Unit* new_unit = CreateBonusUnit();
+    Unit* new_unit = bonus_unit_factory->CreateUnit(unit_id_counter);
+    ++unit_id_counter;
     AddNewUnit(new_unit, squad_number);
 }
 
@@ -39,11 +41,7 @@ bool Fraction::BuyUnit(size_t squad_number, const UnitFactory& unit_factory) {
 
 //----------------------------------------------------------------------------------------------------------------------
 
-Unit* AttackingFraction::CreateBonusUnit() {
-    Unit* new_unit = new Archer(unit_id_counter);
-    ++unit_id_counter;
-    return  new_unit;
-}
+AttackingFraction::AttackingFraction(): Fraction(new ArcherFactory) {}
 
 void AttackingFraction::Attack(IFraction& other_fraction, size_t squad_number) const {
     double damage = army->GetSubnode(squad_number).GetDamage();
@@ -61,11 +59,7 @@ void AttackingFraction::Earn(size_t squad_number) {
 
 //----------------------------------------------------------------------------------------------------------------------
 
-Unit* DefendingFraction::CreateBonusUnit() {
-    Unit* new_unit = new Swordsman(unit_id_counter);
-    ++unit_id_counter;
-    return  new_unit;
-}
+DefendingFraction::DefendingFraction(): Fraction(new SwordsmanFactory) {}
 
 void DefendingFraction::Attack(IFraction& other_fraction, size_t squad_number) const {
     double damage = army->GetSubnode(squad_number).GetDamage();
@@ -83,11 +77,7 @@ void DefendingFraction::Earn(size_t squad_number) {
 
 //----------------------------------------------------------------------------------------------------------------------
 
-Unit* EconomyFraction::CreateBonusUnit() {
-    Unit* new_unit = new Swordsman(unit_id_counter);
-    ++unit_id_counter;
-    return  new_unit;
-}
+EconomyFraction::EconomyFraction(): Fraction(new CivilianFactory) {}
 
 void EconomyFraction::Attack(IFraction& other_fraction, size_t squad_number) const {
     double damage = army->GetSubnode(squad_number).GetDamage();

@@ -20,7 +20,7 @@ public:
 
 class Fraction: public IFraction {
 public:
-    explicit Fraction();
+    explicit Fraction(UnitFactory* bonus_unit_factory);
     ~Fraction() override;
 
     void CreateNewSquad() override;
@@ -32,22 +32,22 @@ protected:
     Army* const army;
     Finance* const finance;
     int unit_id_counter;
+    UnitFactory* bonus_unit_factory;
 
     void AddNewUnit(Unit* const& new_unit, size_t squad_number);
-    virtual Unit* CreateBonusUnit() = 0; // фабричный метод для создания нового бонусного юнита
 };
 
 //----------------------------------------------------------------------------------------------------------------------
 
 class AttackingFraction: public Fraction {
 public:
+    explicit AttackingFraction();
+
     void Attack(IFraction& other_fraction, size_t squad_number) const override;
     void Earn(size_t squad_number) override ;
     void Defend(double damage) override;
 
 private:
-    Unit* CreateBonusUnit() override;
-
     const double attacking_coefficient = 1.1;
     const double defending_coefficient = 1.1;
 };
@@ -56,13 +56,13 @@ private:
 
 class DefendingFraction: public Fraction {
 public:
+    explicit DefendingFraction();
+
     void Attack(IFraction& other_fraction, size_t squad_number) const override;
     void Earn(size_t squad_number) override ;
     void Defend(double damage) override;
 
 private:
-    Unit* CreateBonusUnit() override;
-
     const double attacking_coefficient = 0.9;
     const double defending_coefficient = 0.9;
 };
@@ -71,13 +71,13 @@ private:
 
 class EconomyFraction: public Fraction {
 public:
+    explicit EconomyFraction();
+
     void Attack(IFraction& other_fraction, size_t squad_number) const override;
     void Earn(size_t squad_number) override ;
     void Defend(double damage) override;
 
 private:
-    Unit* CreateBonusUnit() override;
-
     const double earning_coefficient = 1.1;
 };
 
