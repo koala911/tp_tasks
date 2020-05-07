@@ -5,6 +5,6 @@
 #include "AddTestCase.h"
 #include "Functions.h"
 
-TEST_F(TestAdd, TwoPlusTwo) {
-  ASSERT_EQ(4, 2 + 2);
+TEST_F(AddTestCase, TwoPlusTwo) {
+  ASSERT_EQ(4, Add(2, 2));
 }
