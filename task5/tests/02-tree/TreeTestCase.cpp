@@ -6,6 +6,8 @@
 #include "TreeTestCase.h"
 #include "Tree.h"
 #include <fstream>
+#include <boost/filesystem.hpp>
+
 
 TEST_F(TreeTestCase, TestOne) {
     ASSERT_THROW(GetTree("/wrong/path/", false), std::invalid_argument);
@@ -24,9 +26,21 @@ TEST_F(TreeTestCase, TestThree) {
 }
 
 TEST_F(TreeTestCase, TestFour) {
-    ASSERT_EQ(GetTree(".", true), GetTree(".", true));
+    boost::filesystem::path dir("./my_dir_for_test");
+    boost::filesystem::create_directories(dir); 
+    FileNode answer;
+    answer.name = "my_dir_for_test";
+    answer.is_dir = true;
+    answer.children.clear();
+    ASSERT_EQ(GetTree("my_dir_for_test", true), answer);
 }
 
 TEST_F(TreeTestCase, TestFive) {
-    ASSERT_EQ(GetTree(".", false), GetTree(".", false));
+    boost::filesystem::path dir("./my_dir_for_test");
+    boost::filesystem::create_directories(dir); 
+    FileNode answer;
+    answer.name = "my_dir_for_test";
+    answer.is_dir = true;
+    answer.children.clear();
+    ASSERT_EQ(GetTree("my_dir_for_test", false), answer);
 }
