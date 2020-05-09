@@ -52,6 +52,8 @@ std::ostream& operator<<(std::ostream& out, const Unit& unit) {
 
 Civilian::Civilian(int id): Unit(id, initial_health, initial_damage, initial_earnings, initial_protection) {}
 
+const std::string Civilian::type = "Civilian";
+
 std::string Civilian::GetType() const {
     return type;
 }
@@ -63,6 +65,8 @@ std::string Civilian::GetInfo() {
 //----------------------------------------------------------------------------------------------------------------------
 
 Archer::Archer(int id): Unit(id, initial_health, initial_damage, initial_earnings, initial_protection) {}
+
+const std::string Archer::type = "Archer";
 
 std::string Archer::GetType() const {
     return type;
@@ -76,6 +80,8 @@ std::string Archer::GetInfo() {
 
 HorseRider::HorseRider(int id): Unit(id, initial_health, initial_damage, initial_earnings, initial_protection) {}
 
+const std::string HorseRider::type = "Horse Rider";
+
 std::string HorseRider::GetType() const {
     return type;
 }
@@ -87,6 +93,8 @@ std::string HorseRider::GetInfo() {
 //----------------------------------------------------------------------------------------------------------------------
 
 Swordsman::Swordsman(int id): Unit(id, initial_health, initial_damage, initial_earnings, initial_protection) {}
+
+const std::string Swordsman::type = "Swordsman";
 
 std::string Swordsman::GetType() const {
     return type;

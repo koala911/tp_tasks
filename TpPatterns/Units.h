@@ -45,7 +45,7 @@ public:
     constexpr static const double initial_damage = 0;
     constexpr static const double initial_earnings = 50;
     constexpr static const double initial_protection = 0;
-    inline static const std::string type = "Civilian";
+    static const std::string type;
 
     static std::string GetInfo();
 };
@@ -63,7 +63,7 @@ public:
     constexpr static const double initial_damage = 85;
     constexpr static const double initial_earnings = 15;
     constexpr static const double initial_protection = 0.4;
-    inline static const std::string type = "Archer";
+    static const std::string type;
 
     static std::string GetInfo();
 };
@@ -81,7 +81,7 @@ public:
     constexpr static const double initial_damage = 90;
     constexpr static const double initial_earnings = 10;
     constexpr static const double initial_protection = 0.5;
-    inline static const std::string type = "Horse Rider";
+    static const std::string type;
 
     static std::string GetInfo();
 };
@@ -99,7 +99,7 @@ public:
     constexpr static const double initial_damage = 60;
     constexpr static const double initial_earnings = 15;
     constexpr static const double initial_protection = 0.6;
-    inline static const std::string type = "Swordsman";
+    static const std::string type;
 
     static std::string GetInfo();
 };
@@ -108,6 +108,7 @@ public:
 
 class UnitFactory {
 public:
+    virtual ~UnitFactory() = default;
     virtual Unit* CreateUnit(int id) const = 0;
     virtual double GetCost() const = 0;
     virtual std::string GetType() const = 0;
