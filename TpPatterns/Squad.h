@@ -2,6 +2,8 @@
 #include "Units.h"
 #include "ArmyNode.h"
 #include <vector>
+#include <cstddef>
+
 
 class Squad: public CompositeNode {
 public:

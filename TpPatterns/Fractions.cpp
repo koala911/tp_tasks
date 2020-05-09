@@ -13,21 +13,21 @@ void Fraction::CreateNewSquad() {
     army->AddNewSubnode(new_squad);
 }
 
-void Fraction::AddNewUnit(Unit* const& new_unit, size_t squad_number) {
+void Fraction::AddNewUnit(Unit* const& new_unit, std::size_t squad_number) {
     army->AddUnit(new_unit, squad_number);
 }
 
-void Fraction::AddBonusUnit(size_t squad_number) {
+void Fraction::AddBonusUnit(std::size_t squad_number) {
     Unit* new_unit = bonus_unit_factory->CreateUnit(unit_id_counter);
     ++unit_id_counter;
     AddNewUnit(new_unit, squad_number);
 }
 
-size_t Fraction::GetArmySize() const {
+std::size_t Fraction::GetArmySize() const {
     return army->CountUnits();
 }
 
-bool Fraction::BuyUnit(size_t squad_number, const UnitFactory& unit_factory) {
+bool Fraction::BuyUnit(std::size_t squad_number, const UnitFactory& unit_factory) {
     if (finance->EnoughMoney(unit_factory.GetCost())) {
         Unit* new_unit = unit_factory.CreateUnit(unit_id_counter);
         AddNewUnit(new_unit, squad_number);
@@ -43,7 +43,7 @@ bool Fraction::BuyUnit(size_t squad_number, const UnitFactory& unit_factory) {
 
 AttackingFraction::AttackingFraction(): Fraction(new ArcherFactory) {}
 
-void AttackingFraction::Attack(IFraction& other_fraction, size_t squad_number) const {
+void AttackingFraction::Attack(IFraction& other_fraction, std::size_t squad_number) const {
     double damage = army->GetSubnode(squad_number).GetDamage();
     other_fraction.Defend(damage * attacking_coefficient);
 }
@@ -52,7 +52,7 @@ void AttackingFraction::Defend(double damage) {
     army->ToHit(damage * defending_coefficient);
 }
 
-void AttackingFraction::Earn(size_t squad_number) {
+void AttackingFraction::Earn(std::size_t squad_number) {
     double total_earnings = army->GetSubnode(squad_number).GetEarnings();
     finance->AddMoney(total_earnings);
 }
@@ -61,7 +61,7 @@ void AttackingFraction::Earn(size_t squad_number) {
 
 DefendingFraction::DefendingFraction(): Fraction(new SwordsmanFactory) {}
 
-void DefendingFraction::Attack(IFraction& other_fraction, size_t squad_number) const {
+void DefendingFraction::Attack(IFraction& other_fraction, std::size_t squad_number) const {
     double damage = army->GetSubnode(squad_number).GetDamage();
     other_fraction.Defend(damage * attacking_coefficient);
 }
@@ -70,7 +70,7 @@ void DefendingFraction::Defend(double damage) {
     army->ToHit(damage * defending_coefficient);
 }
 
-void DefendingFraction::Earn(size_t squad_number) {
+void DefendingFraction::Earn(std::size_t squad_number) {
     double total_earnings = army->GetSubnode(squad_number).GetEarnings();
     finance->AddMoney(total_earnings);
 }
@@ -79,7 +79,7 @@ void DefendingFraction::Earn(size_t squad_number) {
 
 EconomyFraction::EconomyFraction(): Fraction(new CivilianFactory) {}
 
-void EconomyFraction::Attack(IFraction& other_fraction, size_t squad_number) const {
+void EconomyFraction::Attack(IFraction& other_fraction, std::size_t squad_number) const {
     double damage = army->GetSubnode(squad_number).GetDamage();
     other_fraction.Defend(damage);
 }
@@ -88,7 +88,7 @@ void EconomyFraction::Defend(double damage) {
     army->ToHit(damage);
 }
 
-void EconomyFraction::Earn(size_t squad_number) {
+void EconomyFraction::Earn(std::size_t squad_number) {
     double total_earnings = army->GetSubnode(squad_number).GetEarnings();
     finance->AddMoney(total_earnings * earning_coefficient);
 }
@@ -108,12 +108,12 @@ InformingDecorator::~InformingDecorator() {
     delete decorated_fraction;
 }
 
-void InformingDecorator::Attack(IFraction& other_fraction, size_t squad_number) const {
+void InformingDecorator::Attack(IFraction& other_fraction, std::size_t squad_number) const {
     std::cout << "Squad " << squad_number << " of fraction " << name << " attacks!" << std::endl;
     decorated_fraction->Attack(other_fraction, squad_number);
 }
 
-void InformingDecorator::Earn(size_t squad_number) {
+void InformingDecorator::Earn(std::size_t squad_number) {
     std::cout << "Squad " << squad_number << " of fraction " << name << " earns money." << std::endl;
     decorated_fraction->Earn(squad_number);
 }
@@ -128,12 +128,12 @@ void InformingDecorator::CreateNewSquad() {
     std::cout << "Fraction " << name << " created new squad." << std::endl;
 }
 
-void InformingDecorator::AddBonusUnit(size_t squad_number) {
+void InformingDecorator::AddBonusUnit(std::size_t squad_number) {
     decorated_fraction->AddBonusUnit(squad_number);
     std::cout << "In squad " << squad_number << " of fraction " << name << " added bonus unit." << std::endl;
 }
 
-bool InformingDecorator::BuyUnit(size_t squad_number, const UnitFactory& unit_factory) {
+bool InformingDecorator::BuyUnit(std::size_t squad_number, const UnitFactory& unit_factory) {
     bool unit_bought = decorated_fraction->BuyUnit(squad_number, unit_factory);
     if (unit_bought) {
         std::cout << "In squad " << squad_number << " of fraction " << name << " bought new " << unit_factory.GetType() << "." << std::endl;
@@ -143,6 +143,6 @@ bool InformingDecorator::BuyUnit(size_t squad_number, const UnitFactory& unit_fa
     return unit_bought;
 }
 
-size_t InformingDecorator::GetArmySize() const {
+std::size_t InformingDecorator::GetArmySize() const {
     return decorated_fraction->GetArmySize();
 }

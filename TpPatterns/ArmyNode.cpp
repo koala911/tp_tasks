@@ -30,19 +30,19 @@ double CompositeNode::GetEarnings() const {
     return total_earnings;
 }
 
-size_t CompositeNode::CountUnits() const {
-    size_t total_units = 0;
+std::size_t CompositeNode::CountUnits() const {
+    std::size_t total_units = 0;
     for (const ArmyNode* subnode: subnodes) {
         total_units += subnode->CountUnits();
     }
     return total_units;
 }
 
-size_t CompositeNode::GetSize() const {
+std::size_t CompositeNode::GetSize() const {
     return subnodes.size();
 }
 
-const ArmyNode& CompositeNode::GetSubnode(size_t subnode_number) const {
+const ArmyNode& CompositeNode::GetSubnode(std::size_t subnode_number) const {
     return *subnodes[subnode_number];
 }
 

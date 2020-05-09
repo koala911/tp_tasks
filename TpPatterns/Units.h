@@ -3,6 +3,8 @@
 #include <functional>
 #include <iostream>
 #include "ArmyNode.h"
+#include <cstddef>
+
 
 class Unit: public ArmyNode {
 public:
@@ -15,7 +17,7 @@ public:
     int GetId() const;
     double GetProtection() const;
     double GetEarnings() const override;
-    size_t CountUnits() const override;
+    std::size_t CountUnits() const override;
 
     void ToHit(double damage) override;
     bool IsDead() const;

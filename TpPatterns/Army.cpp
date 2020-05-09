@@ -2,7 +2,7 @@
 #include <algorithm>
 
 
-void Army::AddUnit(Unit* const& new_unit, size_t squad_number) {
+void Army::AddUnit(Unit* const& new_unit, std::size_t squad_number) {
     try {
         Squad* squad = dynamic_cast<Squad*>(subnodes[squad_number]);
         squad->AddNewSubnode(new_unit);

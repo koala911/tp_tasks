@@ -34,7 +34,7 @@ bool Unit::IsDead() const {
     return (health <= 0);
 }
 
-size_t Unit::CountUnits() const {
+std::size_t Unit::CountUnits() const {
     return 1;
 }
 
