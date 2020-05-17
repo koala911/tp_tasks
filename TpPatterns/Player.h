@@ -117,7 +117,6 @@ public:
 
     void Generate() override;
     void Execute() override;
-    void SetSquadNumber();
 private:
     std::size_t squad_number;
     int type_of_action;
