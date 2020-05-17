@@ -18,6 +18,8 @@ public:
     virtual void AddBonusUnit(std::size_t squad_number) = 0;
     virtual bool BuyUnit(std::size_t squad_number, const UnitFactory& unit_factory) = 0;
     virtual std::size_t GetArmySize() const = 0;
+    virtual Finance GetFinance() const = 0;
+    virtual std::size_t CountUnits() const = 0;
 };
 
 class Fraction: public IFraction {
@@ -29,7 +31,8 @@ public:
     void AddBonusUnit(std::size_t squad_number) override;
     bool BuyUnit(std::size_t squad_number, const UnitFactory& unit_factory) override;
     std::size_t GetArmySize() const override;
-
+    Finance GetFinance() const override ;
+    std::size_t CountUnits() const override;
 protected:
     Army* const army;
     Finance* const finance;
@@ -98,6 +101,8 @@ public:
     void AddBonusUnit(std::size_t squad_number) override;
     bool BuyUnit(std::size_t squad_number, const UnitFactory& unit_factory) override;
     std::size_t GetArmySize() const override;
+    Finance GetFinance() const override ;
+    std::size_t CountUnits() const override;
 
 private:
     Fraction* decorated_fraction;

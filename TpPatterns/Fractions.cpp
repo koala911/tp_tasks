@@ -24,6 +24,14 @@ void Fraction::AddBonusUnit(std::size_t squad_number) {
 }
 
 std::size_t Fraction::GetArmySize() const {
+    return army->GetSize();
+}
+
+Finance Fraction::GetFinance() const {
+    return *finance;
+}
+
+std::size_t Fraction::CountUnits() const {
     return army->CountUnits();
 }
 
@@ -109,12 +117,12 @@ InformingDecorator::~InformingDecorator() {
 }
 
 void InformingDecorator::Attack(IFraction& other_fraction, std::size_t squad_number) const {
-    std::cout << "Squad " << squad_number << " of fraction " << name << " attacks!" << std::endl;
+    std::cout << "Squad " << squad_number + 1 << " of fraction " << name << " attacks!" << std::endl;
     decorated_fraction->Attack(other_fraction, squad_number);
 }
 
 void InformingDecorator::Earn(std::size_t squad_number) {
-    std::cout << "Squad " << squad_number << " of fraction " << name << " earns money." << std::endl;
+    std::cout << "Squad " << squad_number + 1 << " of fraction " << name << " earns money." << std::endl;
     decorated_fraction->Earn(squad_number);
 }
 
@@ -130,13 +138,13 @@ void InformingDecorator::CreateNewSquad() {
 
 void InformingDecorator::AddBonusUnit(std::size_t squad_number) {
     decorated_fraction->AddBonusUnit(squad_number);
-    std::cout << "In squad " << squad_number << " of fraction " << name << " added bonus unit." << std::endl;
+    std::cout << "In squad " << squad_number + 1 << " of fraction " << name << " added bonus unit." << std::endl;
 }
 
 bool InformingDecorator::BuyUnit(std::size_t squad_number, const UnitFactory& unit_factory) {
     bool unit_bought = decorated_fraction->BuyUnit(squad_number, unit_factory);
     if (unit_bought) {
-        std::cout << "In squad " << squad_number << " of fraction " << name << " bought new " << unit_factory.GetType() << "." << std::endl;
+        std::cout << "In squad " << squad_number + 1 << " of fraction " << name << " bought new " << unit_factory.GetType() << "." << std::endl;
     } else {
         std::cout << "Not enough money" << std::endl;
     }
@@ -145,4 +153,12 @@ bool InformingDecorator::BuyUnit(std::size_t squad_number, const UnitFactory& un
 
 std::size_t InformingDecorator::GetArmySize() const {
     return decorated_fraction->GetArmySize();
+}
+
+Finance InformingDecorator::GetFinance() const {
+    return decorated_fraction->GetFinance();
+}
+
+std::size_t InformingDecorator::CountUnits() const {
+    return decorated_fraction->CountUnits();
 }

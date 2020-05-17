@@ -8,7 +8,7 @@ void Squad::ToHit(double damage) {
 }
 
 void Squad::deleteDeadUnits() {
-    for (ArmyNode *subnode: subnodes) {
+    for (auto& subnode: subnodes) {
         try {
             Unit &unit = dynamic_cast<Unit &>(*subnode);
             if (unit.IsDead()) {
@@ -22,5 +22,6 @@ void Squad::deleteDeadUnits() {
     auto iterator = std::find(subnodes.begin(), subnodes.end(), nullptr);
     while (iterator != subnodes.end()) {
         subnodes.erase(iterator);
+        iterator = std::find(subnodes.begin(), subnodes.end(), nullptr);
     }
 }
